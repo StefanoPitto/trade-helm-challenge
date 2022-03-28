@@ -21,7 +21,7 @@ export const Home = () => {
 			<img src="https://i.imgur.com/yCTwty5.png" alt="trade-helm" />
 
 			<InnerContainer>
-				<h1>Supermarket's List</h1>
+				<h1>Supermarket list</h1>
 				<h3>Item(s): {items.length}</h3>
 				{isLoading ? (
 					<p>Loading...</p>
